@@ -3,14 +3,14 @@ if &compatible
 endif
 
 "runtimepath 
-	set runtimepath+=/home/default_87/.cache/dein/repos/github.com/Shougo/dein.vim
+	set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
  	runtime map.vim 
 	
 "write dein script
 if dein#load_state('~/.cache/dein')
-	call dein#begin('/home/default_87/.cache/dein')
+	call dein#begin('~/.cache/dein')
 
-		call dein#add('/home/default_87/.cache/dein/repos/github.com/Shougo/dein.vim')
+		call dein#add('~/.cache/dein/repos/github.com/Shougo/dein.vim')
 		call dein#load_toml('~/.config/nvim/plugins.toml')
 
 	call dein#end()
