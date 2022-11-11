@@ -18,6 +18,8 @@ repo = 'prabirshrestha/vim-lsp'
 repo = 'vim-denops/denops.vim'
 
 [[plugins]]
+repo = 'vimdenops/denops-helloworld.vim'
+[[plugins]]
 repo = 'Shougo/ddc.vim'
 
 [[plugins]]
