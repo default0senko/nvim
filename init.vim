@@ -43,7 +43,7 @@ call ddc#custom#patch_global('sourceOptions', {
  \ '<TAB>' : ddc#map#manual_complete()
 
 " <S-TAB>: completion back.
- inoremap <expr><S-TAB>  pumvisible() ? '<C-p>' : '<C-h>'
+ inoremap <expr><S-TAB>  pumvisible() ? '<C-;>' : '<C-h>'
 
 " Use ddc.
  call ddc#enable()
