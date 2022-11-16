@@ -48,3 +48,7 @@ call ddc#custom#patch_global('sourceOptions', {
 " Use ddc.
  call ddc#enable()
   
+" lexima.vim
+call lexima#add_rule({'char': '$', 'input_after': '$', 'filetype': 'latex'})
+call lexima#add_rule({'char': '$', 'at': '\%#\$', 'leave': 1, 'filetype': 'latex'})
+call lexima#add_rule({'char': '<BS>', 'at': '\$\%#\$', 'delete': 1, 'filetype': 'latex'})

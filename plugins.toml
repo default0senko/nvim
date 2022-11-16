@@ -27,3 +27,6 @@ repo = 'shun/ddc-vim-lsp'
 
 [[plugins]]
 repo = 'Shougo/ddc-ui-native'
+
+[[plugins]]
+repo = 'cohama/lexima.vim'
